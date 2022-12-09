@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body{
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 900px;
+  
+}
+form {
+    margin: 25px 20px;
+    border: 1px solid black;
+    
+}
+.head1{
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(89, 230, 89, 0.67);
+    margin: 0;
+   
+}
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+
+}
+.btn{
+    background-color:  rgba(89, 230, 89, 0.67);
+    text-align: center;
+    padding: 8px;
+}
+input[type="submit"],
+input[type="reset"] {
+    border: 0.5px solid black;
+    background-color: whitesmoke;
+    padding: 5px 15px;
+}
+
+input[type="reset"]:hover {
+    background-color:rgba(89, 230, 89, 0.67) ;
+    cursor: pointer;
+
+}
+input[type="submit"]:hover{
+    background-color:rgba(89, 230, 89, 0.67) ;
+    cursor: pointer;
+}
+.cont2{
+    background-color: rgba(228, 222, 135, 0.071);
+}
